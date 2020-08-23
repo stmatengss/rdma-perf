@@ -1,0 +1,60 @@
+# Object Files
+*.o
+*.lo
+*.la
+
+# Libraries
+*.lib
+*.a
+.libs
+
+# Shared objects
+*.so
+*.so.*
+
+# Dependencies
+.dirstamp
+.deps
+
+# Automake
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h
+config.h.in
+config.log
+config.status
+config/
+configure
+libtool
+m4/
+stamp-h1
+
+# Project/Eclipse
+.cproject
+.project
+
+#Ctags
+tags
+
+#Programs
+atomic_bw
+atomic_lat
+read_bw
+read_lat
+send_bw
+send_lat
+write_bw
+write_lat
+rc_lat
+ud_lat
+rc_busy_polling_lat
+many_to_one
+rc_async
+
+#Debian Stuff
+debian/compat
+debian/*.log
+debian/files
+debian/perftest
